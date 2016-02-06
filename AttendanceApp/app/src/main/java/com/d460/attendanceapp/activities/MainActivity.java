@@ -1,7 +1,9 @@
-package com.d460.attendanceapp;
+package com.d460.attendanceapp.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.d460.attendanceapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
