@@ -3,12 +3,17 @@ package com.d460.tipcalc.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.d460.tipcalc.R;
+import com.d460.tipcalc.models.TipRecord;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 
 /**
@@ -16,6 +21,8 @@ import com.d460.tipcalc.R;
  */
 public class TipHistoryListFragment extends Fragment implements TipHistoryListFragmentListener {
 
+    @BindView(R.id.recyclerview);
+    RecyclerView recyclerview;
 
     public TipHistoryListFragment() {
         // Required empty public constructor
@@ -26,11 +33,18 @@ public class TipHistoryListFragment extends Fragment implements TipHistoryListFr
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tip_history_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_tip_history_list, container, false);
+        ButterKnife.bind(this, view);
+        return view;
     }
 
     @Override
-    public void action(String str) {
-        Toast.makeText(getActivity(),str,Toast.LENGTH_SHORT).show();
+    public void addToList(TipRecord record) {
+
+    }
+
+    @Override
+    public void clearList() {
+
     }
 }
