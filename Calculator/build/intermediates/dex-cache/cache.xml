@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_fb9d42d5ab812aa33bdb05c58acb5367686e07ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7b35ba53c1470b1a6ef0e14da93c5135481e509d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha7_fe11f69abd3f8dd7649204ef9dd3798c6936f2a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_668ec4a1e62cd18fd17ef92c38eec4dce8079460\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha7_26921e4372f63c7acc8a98cffee157d0fab2fd6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_04ded2a3fff4c4b0313d5b5c2b8e5b030daab822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_9b710eb3742d7fcac323efe6c515648bcbecba3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_624f1be0f45c736b0ca0e1e02a0a5570d6c12d47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b6f7b4e8ae43d6acb80ea5fc1096693e6713df15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="51c75d3627bac1dfaa01b3db52c22cb71d322508">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0b798b1865aab5fe4bc2ae44b362a676c8ebebcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_4ea272f6d16cfb800c1195e5e40a81c606334584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_9cc3d5ed2d96ce28ee5ad08de45831699e4c8c62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6a2ee65a49ad67ae27a406884c096804de07a378\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_79a491fa9364f524e1cd26b663001ba2cd7e9ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_17cb2cb1a73463d01e1d9d2805d16c799d6c816e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_0809e5d66d14627a05affdc45802c45faf588434\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_03d2bf5c228679375a13fa938c99f71757312ec2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_38fcb9cf3a84cace719469ffb74ef206b36e4bb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="06b239a70272e94c6c13d2b19e337e4f9f479e47">
+        <dex dex="C:\Users\Dagoberto\Documents\AndroidProjects\Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_89786b60414dddce8651e7be9c910751d3fe5bbd\classes.dex" />
+    </item>
+
+</items>
