@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
             Log.d(TAG, "onPostExecute: Parameter is " + s);
-
+            ParseApplications parseApplications = new ParseApplications();
+            parseApplications.parse(s);
         }
-
 
         private String downloadXML(String urlPath) {
 
@@ -85,14 +85,10 @@ public class MainActivity extends AppCompatActivity {
             } catch (IOException e) {
                 Log.e(TAG, "downloadXML: IO Exception reading data: " + e.getMessage());
             }catch (SecurityException e){
-                Log.e(TAG, "downloadXML: Security Exception. Needs permision?? " +e.getMessage());
+                Log.e(TAG, "downloadXML: Security Exception. Needs permission?? " +e.getMessage());
                 //e.printStackTrace();
             }
-            
             return null;
-
         }
-
     }
-
 }
