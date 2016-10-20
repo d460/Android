@@ -9,7 +9,7 @@ import java.io.StringReader;
 import java.util.ArrayList;
 
 /**
- * Created by Dagoberto on 09/10/2016 .
+ * Created by Dagoberto on 09/10/2016
  */
 
 public class ParseApplications {
@@ -33,7 +33,6 @@ public class ParseApplications {
         String textValue ="";
 
         try {
-
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(true);
             XmlPullParser xpp = factory.newPullParser();
@@ -77,12 +76,11 @@ public class ParseApplications {
                 eventType = xpp.next();
             }
 
+
             for (FeedEntry app: applications) {
                 Log.d(TAG, "*******************************************");
                 Log.d(TAG, app.toString());
             }
-
-
         }catch (Exception e) {
             status = false;
             e.printStackTrace();
