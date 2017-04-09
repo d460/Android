@@ -9,6 +9,7 @@ public class FeedEntry {
     private String name;
     private String artist;
     private String releaseDate;
+    private String category;
     private String summary;
     private String imageURL;
 
@@ -37,6 +38,15 @@ public class FeedEntry {
         this.releaseDate = releaseDate;
     }
 
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
     public String getSummary() {
         return summary;
     }
@@ -55,9 +65,10 @@ public class FeedEntry {
 
     @Override
     public String toString() {
-        return  "name=" + name + '\n' +
-                "artist=" + artist + '\n' +
-                "releaseDate=" + releaseDate + '\n' +
-                "imageURL=" + imageURL + '\n' ;
+        return  "name= " + name + '\n' +
+                "artist= " + artist + '\n' +
+                "releaseDate= " + releaseDate + '\n' +
+                "category= " + category + '\n' +
+                "imageURL= " + imageURL + '\n' ;
     }
 }

@@ -67,6 +67,8 @@ public class ParseApplications {
                                 currentRecord.setSummary(textValue);
                             }else if("image".equalsIgnoreCase(tagName)){
                                 currentRecord.setImageURL(textValue);
+                            }else if("category".equalsIgnoreCase(tagName)){
+                                currentRecord.setCategory(xpp.getAttributeValue(null, "term"));
                             }
                         }
                         break;
