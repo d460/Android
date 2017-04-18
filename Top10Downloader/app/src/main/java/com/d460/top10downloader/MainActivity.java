@@ -17,22 +17,22 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private ListView listApps;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listApps = (ListView)findViewById(R.id.xmlListView);
+        listApps = (ListView) findViewById(R.id.xmlListView);
 
         Log.d(TAG, "onCreate: Starting SyncTask");
         DownloadData downloadData = new DownloadData();
-        downloadData.execute("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=25/xml");
+        downloadData.execute("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=200/xml");
         Log.d(TAG, "onCreate: Done!");
     }
 
     private class DownloadData extends AsyncTask<String, Void, String> {
         private static final String TAG = "DownloadData";
-
 
 
         @Override
@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "onPostExecute: Parameter is " + s);
             ParseApplications parseApplications = new ParseApplications();
             parseApplications.parse(s);
+
 //            ArrayAdapter<FeedEntry> arrayAdapter = new ArrayAdapter<FeedEntry>(MainActivity.this,R.layout.list_item,parseApplications.getApplications());
 //            listApps.setAdapter(arrayAdapter);
 
@@ -94,8 +95,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.e(TAG, "downloadXML: Invalid URL " + e.getMessage());
             } catch (IOException e) {
                 Log.e(TAG, "downloadXML: IO Exception reading data: " + e.getMessage());
-            }catch (SecurityException e){
-                Log.e(TAG, "downloadXML: Security Exception. Needs permission?? " +e.getMessage());
+            } catch (SecurityException e) {
+                Log.e(TAG, "downloadXML: Security Exception. Needs permission?? " + e.getMessage());
                 //e.printStackTrace();
             }
             return null;

@@ -65,10 +65,10 @@ public class FeedEntry {
 
     @Override
     public String toString() {
-        return  "name= " + name + '\n' +
+        return "name= " + name + '\n' +
                 "artist= " + artist + '\n' +
                 "releaseDate= " + releaseDate + '\n' +
                 "category= " + category + '\n' +
-                "imageURL= " + imageURL + '\n' ;
+                "imageURL= " + imageURL + '\n';
     }
 }
